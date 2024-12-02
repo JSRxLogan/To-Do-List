@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="input" placeholder="Enter your task">
+            <button id="add">ADD</button>
+        </div>
+
+        <div class="choice">
+            <div id="daily" class="date">Daily</div>
+            <div id="weekly" class="date">Weekly</div>
+            <div id="monthly" class="date">Monthly</div>
+            <div id="yearly" class="date">Yearly</div>
+        </div>
+
+        <div class="list" id="task-list">
+            <!-- Hidden Template -->
+            <div class="element hide" id="task-template">
+                <div class="tick-box">
+                    <input type="checkbox" class="tick">
+                </div>
+                <div class="work task-text"></div>
+                <button class="delete">Remove</button>
+            </div>
+        </div>
+
+        <div class="result">
+            <h3>Total Tasks: <span id="task-count">0</span></h3>
+            <button class="delete-all" id="delete-all">Remove all</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
