@@ -1,8 +1,13 @@
 # 📝 Basic To-Do List (HTML, CSS, JS)
 
-🔗 **Live Demo:** [Click here to try it out](https://jsrxlogan.github.io/To-Do-List/)
+🔗 **Live Demo:** [Click here to try it out](https://jsrxlogan.github.io/To-Do-List/)  
+📂 **GitHub Repo:** [Old To-Do Repo](https://github.com/jsrxlogan/To-Do-List)
 
-This was my very first attempt at building a to-do list, developed in pure HTML, CSS, and JavaScript. I created this project as part of a challenge from my college club head while I was midway through learning JavaScript. Check out my latest to do planner -> [New React To-Do Planner](https://jsrxlogan.github.io/react-to-do-list/)
+This was my very first attempt at building a to-do list, developed in pure HTML, CSS, and JavaScript. I created this project as part of a challenge from my college club head while I was midway through learning JavaScript.
+
+🔗 **Live Demo:** [Explore new to do planner here](https://jsrxlogan.github.io/react-to-do-list/)  
+📂 **GitHub Repo:** [New To-Do Repo](https://github.com/jsrxlogan/react-to-do-list)
+
 
 ## 🌟 Features
 - Add new tasks
@@ -30,6 +35,5 @@ I successfully created the layout with HTML and CSS, but ran into challenges whi
 
 Instead of forcing it, I took a step back, focused on learning the right skills, and promised myself I’d return to complete the vision properly.
 
-> ✨ [Old To-Do List Demo](https://jsrxlogan.github.io/To-Do-List/)
+> ✨ [Old To-Do List Demo](https://jsrxlogan.github.io/To-Do-List/)  
 > ✨ [New React To-Do Planner](https://jsrxlogan.github.io/react-to-do-list/)
-
